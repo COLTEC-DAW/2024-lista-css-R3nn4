@@ -1,7 +1,7 @@
 html{
     width: 60%;
-    color: #FF87B6;
-    background-color: #1F4666;
+    color: #D9A7C2;
+    background-color: #2F4B66;
 }
 
 .summary{
@@ -15,19 +15,19 @@ p{
 h1{
     font-size: 1.8rem;
     text-align: center;
-    color: #E08B3F;
+    color: #D97789;
 }
 
 h2{
     font-size: 1.4rem;
     text-align: center;
-    color: #E19877;
+    color: #D97789;
 }
 
 h3{
     font-size: 1.2rem;
     text-align: center;
-    color: #E19877;
+    color: #D97789;
 }
 
 #zen-supporting{
@@ -39,5 +39,5 @@ abbr{
 }
 
 a{
-    color: #66E195;
+    color: #B9DEB9;
 }
