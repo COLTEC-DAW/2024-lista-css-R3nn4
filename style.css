@@ -1,11 +1,42 @@
 html{
-    width: 60%;
-    color: #D9A7C2;
-    background-color: #2F4B66;
+    background-image: linear-gradient(to right, #496BBA, #CC7890, #D6A89E);
+}
+
+body{
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+    color: #172577;
+}
+
+*[role=banner] > *{
+    display: inline-block;
+}
+
+.intro{
+    height: 550px;
+}
+
+[role=banner]{
+    margin: auto;
+    text-align: center;
+    h2{
+        text-indent: 1em;        
+    }
 }
 
 .summary{
     text-align: center;
+    background-color: #0a155c;
+    p{
+        background: -webkit-linear-gradient(#CC7890, #496BBA);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+#design-archives{
+    display: none;
 }
 
 p{
@@ -15,23 +46,31 @@ p{
 h1{
     font-size: 1.8rem;
     text-align: center;
-    color: #D97789;
+    color: #172577;
 }
 
 h2{
     font-size: 1.4rem;
     text-align: center;
-    color: #D97789;
+    color: #172577;
 }
 
 h3{
     font-size: 1.2rem;
     text-align: center;
-    color: #D97789;
+    color: #172577;
 }
 
 #zen-supporting{
     line-height: 1.5;
+}
+
+aside{
+    ul{
+        list-style-type: none;
+        line-height: 2em;
+        text-align: center;
+    }
 }
 
 abbr{
@@ -40,4 +79,16 @@ abbr{
 
 a{
     color: #B9DEB9;
+}
+
+footer{
+    margin: 4%;
+    a{
+        padding: 0.5em;
+        border: 2px solid;
+    }
+}
+
+.page-wrapper{
+    position: relative;
 }
