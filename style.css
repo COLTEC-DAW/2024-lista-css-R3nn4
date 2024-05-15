@@ -9,34 +9,12 @@ body{
     color: #172577;
 }
 
-*[role=banner] > *{
-    display: inline-block;
-}
-
-.intro{
-    height: 550px;
-}
-
-[role=banner]{
-    margin: auto;
-    text-align: center;
-    h2{
-        text-indent: 1em;        
-    }
-}
-
-.summary{
+header{
     text-align: center;
     background-color: #0a155c;
-    p{
-        background: -webkit-linear-gradient(#CC7890, #496BBA);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-}
-
-#design-archives{
-    display: none;
+    border: solid;
+    border-color: #0a155c;
+    border-radius: 10px;
 }
 
 p{
@@ -44,15 +22,15 @@ p{
 }
 
 h1{
-    font-size: 1.8rem;
-    text-align: center;
-    color: #172577;
+    background: -webkit-linear-gradient(#CC7890, #496BBA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h2{
-    font-size: 1.4rem;
-    text-align: center;
-    color: #172577;
+    background: -webkit-linear-gradient(#CC7890, #496BBA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h3{
@@ -61,8 +39,50 @@ h3{
     color: #172577;
 }
 
-#zen-supporting{
-    line-height: 1.5;
+abbr{
+    font-variant: small-caps;
+}
+
+a{
+    color: #B9DEB9;
+}
+a:link{
+    font-weight: bold;
+}
+a:hover{
+    color: #81caa6;
+}
+a:visited{
+    font-weight: normal;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    margin: 4%;
+    a{
+        align-self: center;
+        flex-basis: 50px;
+        padding: 0.5em;
+        border: 2px solid;
+    }
+}
+
+*[role=banner] > *{
+    display: inline-block;
+}
+
+[role=banner]{
+    margin: auto;
+    text-align: center;
+    h2{
+        text-indent: 1em;  
+    }
+}
+
+.intro{
+    height: 550px;
 }
 
 .design-selection{
@@ -91,34 +111,6 @@ h3{
             border-width: 1px;
             border-color: #1f295c;
         }
-    }
-}
-
-abbr{
-    font-variant: small-caps;
-}
-
-a{
-    color: #B9DEB9;
-    font-weight: bold;
-}
-a:hover{
-    color: #81caa6;
-}
-a:visited{
-    font-weight: normal;
-}
-
-footer{
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: row wrap;
-    margin: 4%;
-    a{
-        align-self: center;
-        flex-basis: 50px;
-        padding: 0.5em;
-        border: 2px solid;
     }
 }
 
@@ -173,4 +165,12 @@ footer{
     p{
         flex-basis: 50%;
     }
+}
+
+#design-archives{
+    display: none;
+}
+
+#zen-supporting{
+    line-height: 1.5;
 }
